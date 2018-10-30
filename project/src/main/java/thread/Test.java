@@ -1,7 +1,11 @@
 package thread;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.FutureTask;
+import com.sun.jmx.snmp.tasks.ThreadService;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Vector;
+import java.util.concurrent.*;
 
 import static java.lang.Thread.currentThread;
 
@@ -63,13 +67,36 @@ public class Test {
 //        new Thread(ft, "threadName").start();
 //        System.out.println(ft.get());
 
+//        // ----------- sleep、wait持锁测试 --------------
+//        SynchronizedTest synchronizedTest = new SynchronizedTest();
+//        synchronizedTest.start();
+//        synchronizedTest.secord();
+//        //主线程稍等10毫秒
+//        Thread.sleep(10);
+//        System.out.println(synchronizedTest.number);
+//
+//        System.out.println(Runtime.getRuntime().availableProcessors());
 
-        SynchronizedTest synchronizedTest = new SynchronizedTest();
-        synchronizedTest.start();
-        synchronizedTest.secord();
-        //主线程稍等10毫秒
-        Thread.sleep(10);
-        System.out.println(synchronizedTest.number);
+//        ExecutorService es = Executors.newSingleThreadExecutor();
+//        ExecutorService es = Executors.newCachedThreadPool();
+//        ExecutorService es = Executors.newFixedThreadPool(6);
+//        ExecutorService es = Executors.newWorkStealingPool();
+        ExecutorService es = Executors.newScheduledThreadPool(5);
+        es.submit(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 1000; i++) {
+                    System.out.println(Thread.currentThread().getName()+ " | 时间：" + new Date().getTime());
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
+
+//        es.shutdown();
 
 
     }
