@@ -7,7 +7,7 @@ Java核心系列，示例代码
 **包含内容**
 
 - [x] Thread 
-- [ ] ThreadPool
+- [x] ThreadPool
 - [ ] synchronized
 - [ ] volatile
 - [ ] ReentrantLock
