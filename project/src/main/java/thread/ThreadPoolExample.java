@@ -2,9 +2,10 @@ package thread;
 
 import com.sun.jmx.snmp.tasks.ThreadService;
 
+import javax.security.auth.callback.Callback;
 import java.util.Date;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.Random;
+import java.util.concurrent.*;
 
 /**
  * 线程池示例类
@@ -13,32 +14,75 @@ public class ThreadPoolExample {
 
     public static void main(String[] args) {
 
+//        // 创建的6种方式
+//        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+//        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+//        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(2);
+        ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(2);
+//        ExecutorService workStealingPool = Executors.newWorkStealingPool();
+//        ScheduledExecutorService singleThreadScheduledExecutor = Executors.newSingleThreadScheduledExecutor();
+//
+//        // 原始创建方式
+//        ThreadPoolExecutor tp = new ThreadPoolExecutor(10, 10,
+//                10L, TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>());
+//        tp.allowCoreThreadTimeOut(true); // 运行关闭核心线程池
+//
+//        // 基础使用
+//        tp.execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
+//            }
+//        });
+//        tp.submit(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
+//            }
+//        });
 
-//        ExecutorService es = Executors.newSingleThreadExecutor();
-//        ExecutorService es = Executors.newCachedThreadPool();
-//        ExecutorService es = Executors.newFixedThreadPool(2);
-//        ExecutorService es = Executors.newScheduledThreadPool(2);
-        ExecutorService es = Executors.newWorkStealingPool();
 
+//        // 带回调的线程池
+//        ThreadPoolExecutor tp = new ThreadPoolExecutor(10, 10,
+//                10L, TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>());
+//        tp.allowCoreThreadTimeOut(true);
+//        Future<Long> result = tp.submit(new Callable<Long>() {
+//            @Override
+//            public Long call() throws Exception {
+//                return new Date().getTime();
+//            }
+//        });
+//        try {
+//            System.out.println("运行结果：" + result.get());
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        }
 
-        es.execute(new Runnable() {
+        // 延迟线程
+        scheduledThreadPool.schedule(new Runnable() {
             @Override
             public void run() {
-                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
+                System.out.println("time:" + new Date().getTime());
             }
-        });
-        es.submit(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
-            }
-        });
+        }, 10, TimeUnit.SECONDS);
 
-
-        System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
-
-//        es.shutdown();
 
     }
 
+}
+
+class Task implements Callable<Integer> {
+    @Override
+    public Integer call() throws Exception {
+        System.out.println("子线程在进行计算");
+        Thread.sleep(3000);
+        int sum = 0;
+        for (int i = 0; i < 100; i++)
+            sum += i;
+        return sum;
+    }
 }
