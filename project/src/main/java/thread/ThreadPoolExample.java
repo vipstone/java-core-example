@@ -14,55 +14,49 @@ public class ThreadPoolExample {
 
     public static void main(String[] args) {
 
-//        // 创建的6种方式
-//        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
-//        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
-//        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(2);
+        // 使用Executors方式创建
+        ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
+        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+        ExecutorService fixedThreadPool = Executors.newFixedThreadPool(2);
+        ScheduledExecutorService singleThreadScheduledExecutor = Executors.newSingleThreadScheduledExecutor();
         ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(2);
-//        ExecutorService workStealingPool = Executors.newWorkStealingPool();
-//        ScheduledExecutorService singleThreadScheduledExecutor = Executors.newSingleThreadScheduledExecutor();
-//
-//        // 原始创建方式
-//        ThreadPoolExecutor tp = new ThreadPoolExecutor(10, 10,
-//                10L, TimeUnit.SECONDS,
-//                new LinkedBlockingQueue<Runnable>());
+        ExecutorService workStealingPool = Executors.newWorkStealingPool();
+        // 原始创建方式
+        ThreadPoolExecutor tp = new ThreadPoolExecutor(10, 10, 10L, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 //        tp.allowCoreThreadTimeOut(true); // 运行关闭核心线程池
-//
-//        // 基础使用
-//        tp.execute(new Runnable() {
-//            @Override
-//            public void run() {
-//                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
-//            }
-//        });
-//        tp.submit(new Runnable() {
-//            @Override
-//            public void run() {
-//                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
-//            }
-//        });
 
+        // 基础使用
+        singleThreadExecutor.execute(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
+            }
+        });
 
-//        // 带回调的线程池
-//        ThreadPoolExecutor tp = new ThreadPoolExecutor(10, 10,
-//                10L, TimeUnit.SECONDS,
-//                new LinkedBlockingQueue<Runnable>());
-//        tp.allowCoreThreadTimeOut(true);
-//        Future<Long> result = tp.submit(new Callable<Long>() {
-//            @Override
-//            public Long call() throws Exception {
-//                return new Date().getTime();
-//            }
-//        });
-//        try {
-//            System.out.println("运行结果：" + result.get());
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        } catch (ExecutionException e) {
-//            e.printStackTrace();
-//        }
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        executorService.submit(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
+            }
+        });
 
-        // 延迟线程
+        // 带回调的线程池
+        Future<Long> result = executorService.submit(new Callable<Long>() {
+            @Override
+            public Long call() throws Exception {
+                return new Date().getTime();
+            }
+        });
+        try {
+            System.out.println("运行结果：" + result.get());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        // 延迟线程池
         scheduledThreadPool.schedule(new Runnable() {
             @Override
             public void run() {
