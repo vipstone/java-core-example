@@ -4,7 +4,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-// 模拟线程非安全
+// 非安全线程模拟
 public class ThreadSafeSample {
     public int _number;
     public void add() {

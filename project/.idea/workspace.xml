@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57097446-78ac-4cb6-9239-db4197ef9181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LockExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="3989" />
-          <entry key="txt" value="67" />
+          <entry key="java" value="3996" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3989" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="JAVA" value="3996" />
+          <entry key="PLAIN_TEXT" value="94" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="81">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1279#1280#0" expanded="true" />
@@ -487,7 +485,7 @@
       <workItem from="1540951418519" duration="25254000" />
       <workItem from="1541037527197" duration="10993000" />
       <workItem from="1541126033040" duration="61000" />
-      <workItem from="1541126116904" duration="1717000" />
+      <workItem from="1541126116904" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="添加线程池使用方法">
       <created>1540954159070</created>
@@ -517,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541055318911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加非安全线程模拟">
+      <created>1541127876464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541127876465</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90216000" />
+    <option name="totallyTimeSpent" value="90290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,7 +588,8 @@
     <MESSAGE value="添加延迟线程池使用、回调线程池执行" />
     <MESSAGE value="线程池完善" />
     <MESSAGE value="添加线程锁类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线程锁类" />
+    <MESSAGE value="添加非安全线程模拟" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加非安全线程模拟" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/java.lang.AutoCloseable">
@@ -1701,8 +1707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="81">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
