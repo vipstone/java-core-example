@@ -1,14 +1,23 @@
 package thread;
 
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.ReentrantLock;
 
-// 非安全线程模拟
-public class ThreadSafeSample {
+// 线程同步与锁示例
+public class LockExample {
     public int number;
 
     public void add() {
+
+        ReentrantLock reentrantLock = new ReentrantLock(true); // 设置为true为公平锁，默认是非公平锁
+        reentrantLock.lock();
+        try {
+
+        }finally {
+            reentrantLock.unlock();
+        }
+
         for (int i = 0; i < 100000; i++) {
             int former = number++;
             int latter = number;
@@ -19,17 +28,17 @@ public class ThreadSafeSample {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        ThreadSafeSample threadSafeSample = new ThreadSafeSample();
+        LockExample lockExample = new LockExample();
         Thread threadA = new Thread(new Runnable() {
             @Override
             public void run() {
-                threadSafeSample.add();
+                lockExample.add();
             }
         });
         Thread threadB = new Thread(new Runnable() {
             @Override
             public void run() {
-                threadSafeSample.add();
+                lockExample.add();
             }
         });
         threadA.start();
