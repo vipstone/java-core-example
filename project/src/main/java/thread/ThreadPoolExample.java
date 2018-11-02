@@ -40,7 +40,6 @@ public class ThreadPoolExample {
                 System.out.println(Thread.currentThread().getName() + ":" + new Date().getTime());
             }
         });
-
         // 带回调的线程池
         Future<Long> result = executorService.submit(new Callable<Long>() {
             @Override
