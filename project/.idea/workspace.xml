@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57097446-78ac-4cb6-9239-db4197ef9181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" afterDir="false" />
+    <list default="true" id="57097446-78ac-4cb6-9239-db4197ef9181" name="Default Changelist" comment="添加集合示例">
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/IOExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/LockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +18,9 @@
     <session id="352806247">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -27,7 +28,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,19 +47,26 @@
           <entry key="ExecutorCompletionService" value="1" />
           <entry key="ExecutorService" value="2" />
           <entry key="Executors" value="8" />
+          <entry key="File" value="1" />
+          <entry key="FileReader" value="1" />
+          <entry key="FileWriter" value="1" />
           <entry key="FinalizableDelegatedExecutorService" value="1" />
           <entry key="ForkJoinPool" value="1" />
           <entry key="HashMap" value="1" />
           <entry key="HashSet" value="1" />
+          <entry key="InputStream" value="2" />
+          <entry key="InputStreamReader" value="1" />
           <entry key="Iterable" value="1" />
           <entry key="JIGSAW/rt" value="2" />
           <entry key="LinkedBlockingQueue" value="2" />
           <entry key="LinkedList" value="2" />
           <entry key="List" value="2" />
           <entry key="Map" value="2" />
+          <entry key="OutputStream" value="1" />
           <entry key="PriorityBlockingQueue" value="1" />
           <entry key="PrivilegedThreadFactory" value="1" />
           <entry key="Queue" value="1" />
+          <entry key="Reader" value="1" />
           <entry key="ReentrantLock" value="1" />
           <entry key="ScheduledExecutorService" value="1" />
           <entry key="ScheduledThreadPoolExecutor" value="5" />
@@ -69,39 +77,49 @@
           <entry key="TreeMap" value="1" />
           <entry key="Vector" value="3" />
           <entry key="Worker" value="1" />
+          <entry key="Writer" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="124" />
+          <entry key="java" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="124" />
-          <entry key="UML" value="72" />
+          <entry key="JAVA" value="141" />
+          <entry key="UML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="4609" />
-          <entry key="txt" value="117" />
+          <entry key="java" value="5601" />
+          <entry key="txt" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4609" />
-          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="JAVA" value="5601" />
+          <entry key="PLAIN_TEXT" value="130" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/CollectionExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/IOExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,106 +128,157 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Hashtable.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="267" column="37" selection-start-line="267" selection-start-column="37" selection-end-line="267" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/BufferedReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="56" column="21" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.io.FileReader">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.io.FileReader</OriginalElement>
+              <nodes>
+                <node x="123.0" y="80.0">java.io.Closeable</node>
+                <node x="0.0" y="80.0">java.lang.Readable</node>
+                <node x="68.49999999999999" y="160.0">java.io.Reader</node>
+                <node x="58.99999999999996" y="343.0">java.io.FileReader</node>
+                <node x="32.99999999999997" y="240.0">java.io.InputStreamReader</node>
+                <node x="109.5" y="0.0">java.lang.AutoCloseable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.io.Reader" target="java.io.Closeable">
+                  <point x="22.500000000000014" y="-15.0" />
+                  <point x="136.0" y="135.0" />
+                  <point x="175.5" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.Reader" target="java.lang.Readable">
+                  <point x="-22.499999999999986" y="-15.0" />
+                  <point x="91.0" y="135.0" />
+                  <point x="51.5" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.InputStreamReader" target="java.io.Reader">
+                  <point x="1.4210854715202004E-14" y="-26.5" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.FileReader" target="java.io.InputStreamReader">
+                  <point x="1.4210854715202004E-14" y="-15.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="371.0" />
+              <SelectedNodes>
+                <node>java.io.FileReader</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/InputStreamReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="130" column="22" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="22" />
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
-              <folding>
-                <element signature="e#4697#4698#0" expanded="true" />
-                <element signature="e#4742#4743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="537" column="45" selection-start-line="537" selection-start-column="45" selection-end-line="537" selection-end-column="45" />
-              <folding>
-                <element signature="e#5767#5768#0" expanded="true" />
-                <element signature="e#5800#5801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.TreeMap">
+        <entry file="uml://JAVA/java.io.FileWriter">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>java.util.TreeMap</OriginalElement>
+              <OriginalElement>java.io.FileWriter</OriginalElement>
               <nodes>
-                <node x="620.5" y="655.0">java.util.AbstractMap</node>
-                <node x="0.0" y="1367.5">java.lang.Cloneable</node>
-                <node x="54.375" y="1689.0">java.util.TreeMap</node>
-                <node x="369.6875" y="0.0">java.util.Map</node>
-                <node x="260.0" y="1126.0">java.util.NavigableMap</node>
-                <node x="307.5" y="747.0">java.util.SortedMap</node>
-                <node x="126.0" y="1367.5">java.io.Serializable</node>
+                <node x="138.5" y="80.0">java.lang.Appendable</node>
+                <node x="13.5" y="80.0">java.io.Closeable</node>
+                <node x="156.0" y="160.0">java.io.Writer</node>
+                <node x="146.49999999999997" y="320.0">java.io.FileWriter</node>
+                <node x="115.49999999999997" y="240.0">java.io.OutputStreamWriter</node>
+                <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+                <node x="277.5" y="80.0">java.io.Flushable</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="java.util.TreeMap" target="java.io.Serializable">
-                  <point x="-66.375" y="-900.5" />
-                  <point x="253.5" y="1664.0" />
-                  <point x="183.0" y="1664.0" />
+                <edge source="java.io.Writer" target="java.io.Closeable">
+                  <point x="-28.0" y="-15.0" />
+                  <point x="170.0" y="135.0" />
+                  <point x="66.0" y="135.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
-                <edge source="java.util.NavigableMap" target="java.util.SortedMap">
-                  <point x="0.0" y="-256.5" />
-                  <point x="0.0" y="118.5" />
-                </edge>
-                <edge source="java.util.AbstractMap" target="java.util.Map">
-                  <point x="0.0" y="-210.5" />
-                  <point x="782.5" y="630.0" />
-                  <point x="724.4375" y="630.0" />
-                  <point x="118.25" y="302.5" />
-                </edge>
-                <edge source="java.util.TreeMap" target="java.util.NavigableMap">
-                  <point x="66.375" y="-900.5" />
-                  <point x="386.25" y="1664.0" />
-                  <point x="454.0" y="1664.0" />
-                  <point x="0.0" y="256.5" />
-                </edge>
-                <edge source="java.util.SortedMap" target="java.util.Map">
-                  <point x="0.0" y="-118.5" />
-                  <point x="454.0" y="630.0" />
-                  <point x="487.9375" y="630.0" />
-                  <point x="-118.25" y="302.5" />
-                </edge>
-                <edge source="java.util.TreeMap" target="java.lang.Cloneable">
-                  <point x="-199.125" y="-900.5" />
-                  <point x="120.75" y="1664.0" />
-                  <point x="53.0" y="1664.0" />
+                <edge source="java.io.FileWriter" target="java.io.OutputStreamWriter">
+                  <point x="0.0" y="-15.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
-                <edge source="java.util.TreeMap" target="java.util.AbstractMap">
-                  <point x="199.125" y="-900.5" />
-                  <point x="519.0" y="1664.0" />
-                  <point x="782.5" y="1664.0" />
-                  <point x="0.0" y="210.5" />
+                <edge source="java.io.Writer" target="java.io.Flushable">
+                  <point x="28.0" y="-15.0" />
+                  <point x="226.0" y="135.0" />
+                  <point x="328.5" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.OutputStreamWriter" target="java.io.Writer">
+                  <point x="2.8421709430404007E-14" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.io.Writer" target="java.lang.Appendable">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-470.0" y="1800.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-310.5" y="100.0" />
               <SelectedNodes>
-                <node>java.util.TreeMap</node>
-                <node>java.io.Serializable</node>
+                <node>java.io.FileWriter</node>
+                <node>java.io.Flushable</node>
               </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
+              <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
             </state>
@@ -217,219 +286,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileOutputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="211" column="72" lean-forward="true" selection-start-line="211" selection-start-column="72" selection-end-line="211" selection-end-column="72" />
-              <folding>
-                <element signature="e#3740#3741#0" expanded="true" />
-                <element signature="e#3777#3778#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.HashSet">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.HashSet</OriginalElement>
-              <nodes>
-                <node x="145.25" y="1263.0">java.util.HashSet</node>
-                <node x="173.75" y="666.0">java.util.AbstractCollection</node>
-                <node x="134.0" y="1148.5">java.lang.Cloneable</node>
-                <node x="325.31944444444446" y="149.0">java.util.Collection</node>
-                <node x="260.0" y="1114.0">java.util.AbstractSet</node>
-                <node x="499.75" y="666.0">java.util.Set</node>
-                <node x="338.31944444444446" y="0.0">java.lang.Iterable</node>
-                <node x="0.0" y="1148.5">java.io.Serializable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.HashSet" target="java.util.AbstractSet">
-                  <point x="36.25" y="-141.5" />
-                  <point x="326.5" y="1238.0" />
-                  <point x="393.5" y="1238.0" />
-                  <point x="0.0" y="49.5" />
-                </edge>
-                <edge source="java.util.HashSet" target="java.util.Set">
-                  <point x="108.75" y="-141.5" />
-                  <point x="399.0" y="1238.0" />
-                  <point x="729.25" y="1238.0" />
-                  <point x="76.5" y="199.0" />
-                </edge>
-                <edge source="java.util.Set" target="java.util.Collection">
-                  <point x="0.0" y="-199.0" />
-                  <point x="652.75" y="641.0" />
-                  <point x="554.8194444444445" y="641.0" />
-                  <point x="76.5" y="233.5" />
-                </edge>
-                <edge source="java.util.Collection" target="java.lang.Iterable">
-                  <point x="0.0" y="-233.5" />
-                  <point x="0.0" y="49.5" />
-                </edge>
-                <edge source="java.util.AbstractSet" target="java.util.Set">
-                  <point x="66.75" y="-49.5" />
-                  <point x="460.25" y="1089.0" />
-                  <point x="576.25" y="1089.0" />
-                  <point x="-76.5" y="199.0" />
-                </edge>
-                <edge source="java.util.HashSet" target="java.lang.Cloneable">
-                  <point x="-36.25" y="-141.5" />
-                  <point x="254.0" y="1238.0" />
-                  <point x="187.0" y="1238.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.util.AbstractCollection" target="java.util.Collection">
-                  <point x="0.0" y="-199.0" />
-                  <point x="326.75" y="641.0" />
-                  <point x="401.81944444444446" y="641.0" />
-                  <point x="-76.5" y="233.5" />
-                </edge>
-                <edge source="java.util.HashSet" target="java.io.Serializable">
-                  <point x="-108.75" y="-141.5" />
-                  <point x="181.5" y="1238.0" />
-                  <point x="57.0" y="1238.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.util.AbstractSet" target="java.util.AbstractCollection">
-                  <point x="-66.75" y="-49.5" />
-                  <point x="0.0" y="199.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-277.0" y="927.0" />
-              <SelectedNodes>
-                <node>java.util.HashSet</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-              <folding>
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3675#3676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.LinkedList">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.LinkedList</OriginalElement>
-              <nodes>
-                <node x="0.0" y="804.0">java.util.AbstractCollection</node>
-                <node x="765.0" y="2171.5">java.lang.Cloneable</node>
-                <node x="326.0" y="666.0">java.util.List</node>
-                <node x="336.5" y="149.0">java.util.Collection</node>
-                <node x="71.25" y="1493.5">java.util.AbstractList</node>
-                <node x="673.0" y="919.0">java.util.Queue</node>
-                <node x="604.5" y="1390.0">java.util.Deque</node>
-                <node x="584.4553571428572" y="2332.0">java.util.LinkedList</node>
-                <node x="71.25" y="2091.0">java.util.AbstractSequentialList</node>
-                <node x="349.5" y="0.0">java.lang.Iterable</node>
-                <node x="891.0" y="2171.5">java.io.Serializable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.AbstractSequentialList" target="java.util.AbstractList">
-                  <point x="0.0" y="-95.5" />
-                  <point x="0.0" y="222.0" />
-                </edge>
-                <edge source="java.util.LinkedList" target="java.util.Deque">
-                  <point x="0.0" y="-647.5" />
-                  <point x="747.9553571428572" y="2312.0" />
-                  <point x="754.5" y="2312.0" />
-                  <point x="0.0" y="325.5" />
-                </edge>
-                <edge source="java.util.LinkedList" target="java.util.List">
-                  <point x="-65.39999999999998" y="-647.5" />
-                  <point x="682.5553571428572" y="2302.0" />
-                  <point x="571.25" y="2302.0" />
-                  <point x="81.75" y="337.0" />
-                </edge>
-                <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
-                  <point x="-81.75" y="-222.0" />
-                  <point x="0.0" y="199.0" />
-                </edge>
-                <edge source="java.util.Queue" target="java.util.Collection">
-                  <point x="0.0" y="-84.0" />
-                  <point x="754.5" y="641.0" />
-                  <point x="591.5" y="641.0" />
-                  <point x="102.0" y="233.5" />
-                </edge>
-                <edge source="java.util.LinkedList" target="java.lang.Cloneable">
-                  <point x="65.39999999999998" y="-647.5" />
-                  <point x="813.3553571428572" y="2312.0" />
-                  <point x="818.0" y="2312.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.util.LinkedList" target="java.io.Serializable">
-                  <point x="130.79999999999995" y="-647.5" />
-                  <point x="878.7553571428572" y="2312.0" />
-                  <point x="948.0" y="2312.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.util.List" target="java.util.Collection">
-                  <point x="0.0" y="-337.0" />
-                  <point x="0.0" y="233.5" />
-                </edge>
-                <edge source="java.util.AbstractList" target="java.util.List">
-                  <point x="81.75" y="-222.0" />
-                  <point x="316.5" y="1365.0" />
-                  <point x="407.75" y="1365.0" />
-                  <point x="-81.75" y="337.0" />
-                </edge>
-                <edge source="java.util.Collection" target="java.lang.Iterable">
-                  <point x="0.0" y="-233.5" />
-                  <point x="0.0" y="49.5" />
-                </edge>
-                <edge source="java.util.Deque" target="java.util.Queue">
-                  <point x="0.0" y="-325.5" />
-                  <point x="0.0" y="84.0" />
-                </edge>
-                <edge source="java.util.LinkedList" target="java.util.AbstractSequentialList">
-                  <point x="-130.8" y="-647.5" />
-                  <point x="617.1553571428572" y="2312.0" />
-                  <point x="234.75" y="2312.0" />
-                  <point x="0.0" y="95.5" />
-                </edge>
-                <edge source="java.util.AbstractCollection" target="java.util.Collection">
-                  <point x="0.0" y="-199.0" />
-                  <point x="153.0" y="641.0" />
-                  <point x="387.5" y="641.0" />
-                  <point x="-102.0" y="233.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-218.0" y="2708.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+            <state relative-caret-position="210">
+              <caret line="301" column="77" selection-start-line="301" selection-start-column="71" selection-end-line="301" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -500,6 +360,7 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/LockExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/IOExample.java" />
       </list>
     </option>
   </component>
@@ -529,7 +390,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -591,30 +451,22 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionExample">
+  <component name="RunManager" selected="Application.IOExample">
     <configuration name="CollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.CollectionExample" />
       <module name="project" />
@@ -653,8 +505,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.DeadLockDemo" />
+    <configuration name="IOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.IOExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -706,19 +558,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.ThreadPoolExample" />
       <item itemvalue="Application.LockExample" />
       <item itemvalue="Application.ThreadSafeSample" />
       <item itemvalue="Application.CollectionExample" />
+      <item itemvalue="Application.IOExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOExample" />
         <item itemvalue="Application.CollectionExample" />
         <item itemvalue="Application.LockExample" />
         <item itemvalue="Application.ThreadSafeSample" />
         <item itemvalue="Application.ThreadSafeSample" />
-        <item itemvalue="Application.ThreadPoolExample" />
       </list>
     </recent_temporary>
   </component>
@@ -745,7 +597,8 @@
       <workItem from="1541126033040" duration="61000" />
       <workItem from="1541126116904" duration="10383000" />
       <workItem from="1541211639636" duration="6931000" />
-      <workItem from="1541382099154" duration="19796000" />
+      <workItem from="1541382099154" duration="22257000" />
+      <workItem from="1541468651009" duration="7997000" />
     </task>
     <task id="LOCAL-00001" summary="添加线程池使用方法">
       <created>1540954159070</created>
@@ -796,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541157299677</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加集合示例">
+      <created>1541415787300</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541415787300</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125609000" />
+    <option name="totallyTimeSpent" value="136067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,15 +675,15 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.47046188" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26745436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26745436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32975295" />
@@ -891,330 +751,10 @@
     <MESSAGE value="添加非安全线程模拟" />
     <MESSAGE value="update doc" />
     <MESSAGE value="增加线程同步和锁的示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加线程同步和锁的示例" />
+    <MESSAGE value="添加集合示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加集合示例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/MyCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/SynchronizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/DeadLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15542">
-          <caret line="869" column="23" selection-start-line="869" selection-start-column="23" selection-end-line="869" selection-end-column="23" />
-          <folding>
-            <element signature="e#29974#29975#0" expanded="true" />
-            <element signature="e#30017#30018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="97" column="2" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
-          <folding>
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="158" column="24" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="24" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4427">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
-          <folding>
-            <element signature="e#4139#4140#0" expanded="true" />
-            <element signature="e#4164#4165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/LockExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.lang.Iterable">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Iterable</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-456.0" y="-184.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/BlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#6812#6813#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.ArrayBlockingQueue">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.ArrayBlockingQueue</OriginalElement>
-          <nodes>
-            <node x="118.5" y="320.0">java.util.concurrent.ArrayBlockingQueue</node>
-            <node x="314.0" y="160.0">java.util.AbstractCollection</node>
-            <node x="253.875" y="80.0">java.util.Collection</node>
-            <node x="290.0" y="240.0">java.util.AbstractQueue</node>
-            <node x="134.0" y="240.0">java.util.concurrent.BlockingQueue</node>
-            <node x="180.5" y="160.0">java.util.Queue</node>
-            <node x="259.875" y="0.0">java.lang.Iterable</node>
-            <node x="0.0" y="240.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
-              <point x="33.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.AbstractQueue">
-              <point x="55.666666666666686" y="-15.0" />
-              <point x="257.6666666666667" y="295.0" />
-              <point x="357.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.io.Serializable">
-              <point x="-55.66666666666666" y="-15.0" />
-              <point x="146.33333333333334" y="295.0" />
-              <point x="57.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.Queue" target="java.util.Collection">
-              <point x="0.0" y="-15.0" />
-              <point x="223.5" y="135.0" />
-              <point x="280.125" y="135.0" />
-              <point x="-26.25" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
-              <point x="0.0" y="-15.0" />
-              <point x="-21.5" y="15.0" />
-            </edge>
-            <edge source="java.util.AbstractCollection" target="java.util.Collection">
-              <point x="0.0" y="-15.0" />
-              <point x="390.5" y="135.0" />
-              <point x="332.625" y="135.0" />
-              <point x="26.25" y="15.0" />
-            </edge>
-            <edge source="java.util.AbstractQueue" target="java.util.Queue">
-              <point x="-33.5" y="-15.0" />
-              <point x="323.5" y="215.0" />
-              <point x="245.0" y="215.0" />
-              <point x="21.5" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-269.0" y="129.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.SynchronousQueue">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.SynchronousQueue</OriginalElement>
-          <nodes>
-            <node x="180.0" y="160.0">java.util.AbstractCollection</node>
-            <node x="143.0" y="320.0">java.util.concurrent.SynchronousQueue</node>
-            <node x="121.18750000000001" y="80.0">java.util.Collection</node>
-            <node x="156.0" y="240.0">java.util.AbstractQueue</node>
-            <node x="0.0" y="240.0">java.util.concurrent.BlockingQueue</node>
-            <node x="46.5" y="160.0">java.util.Queue</node>
-            <node x="127.18750000000001" y="0.0">java.lang.Iterable</node>
-            <node x="310.0" y="240.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.concurrent.SynchronousQueue" target="java.io.Serializable">
-              <point x="53.333333333333314" y="-15.0" />
-              <point x="276.3333333333333" y="295.0" />
-              <point x="367.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue">
-              <point x="-53.33333333333334" y="-15.0" />
-              <point x="169.66666666666666" y="295.0" />
-              <point x="68.0" y="295.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection">
-              <point x="33.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.AbstractQueue">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.Queue" target="java.util.Collection">
-              <point x="0.0" y="-15.0" />
-              <point x="89.5" y="135.0" />
-              <point x="147.4375" y="135.0" />
-              <point x="-26.25" y="15.0" />
-            </edge>
-            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
-              <point x="0.0" y="-15.0" />
-              <point x="-21.5" y="15.0" />
-            </edge>
-            <edge source="java.util.AbstractCollection" target="java.util.Collection">
-              <point x="0.0" y="-15.0" />
-              <point x="256.5" y="135.0" />
-              <point x="199.9375" y="135.0" />
-              <point x="26.25" y="15.0" />
-            </edge>
-            <edge source="java.util.AbstractQueue" target="java.util.Queue">
-              <point x="-33.5" y="-15.0" />
-              <point x="189.5" y="215.0" />
-              <point x="111.0" y="215.0" />
-              <point x="21.5" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-290.5" y="129.0" />
-          <SelectedNodes>
-            <node>java.util.concurrent.SynchronousQueue</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
-          <folding>
-            <element signature="e#34990#34991#0" expanded="true" />
-            <element signature="e#35017#35018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.util.HashMap">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1352,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="138" column="44" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1439,20 +972,13 @@
               <point x="-21.5" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-202.0" y="-24.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-202.0" y="-24.0" />
           <SelectedNodes>
             <node>java.util.concurrent.BlockingQueue</node>
           </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="167" column="75" lean-forward="true" selection-start-line="167" selection-start-column="75" selection-end-line="167" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1466,7 +992,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-967.5" y="-213.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-967.0" y="-213.0" />
           <SelectedNodes>
             <node>java.util.Map</node>
           </SelectedNodes>
@@ -1528,7 +1054,7 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-294.5" y="-104.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-294.0" y="-104.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1609,7 +1135,7 @@
               <point x="-26.25" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-198.0" y="-24.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-198.0" y="-24.0" />
           <SelectedNodes>
             <node>java.util.AbstractList</node>
           </SelectedNodes>
@@ -1669,7 +1195,7 @@
               <point x="-76.5" y="233.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-382.5" y="855.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-382.0" y="855.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -1752,7 +1278,7 @@
               <point x="-26.25" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-187.5" y="220.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-187.0" y="220.0" />
           <SelectedNodes>
             <node>java.util.Vector</node>
           </SelectedNodes>
@@ -1806,12 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="138" column="51" lean-forward="true" selection-start-line="138" selection-start-column="51" selection-end-line="138" selection-end-column="51" />
-          <folding>
-            <element signature="e#5774#5775#0" expanded="true" />
-            <element signature="e#5798#5799#0" expanded="true" />
-            <element signature="e#30852#30853#0" expanded="true" />
-            <element signature="e#30899#30900#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1932,17 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-          <folding>
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.util.HashSet">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -2023,17 +1532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
-          <folding>
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.util.TreeMap">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -2104,9 +1602,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/CollectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2698">
+          <caret line="176" column="19" selection-start-line="176" selection-start-column="19" selection-end-line="176" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="130" column="22" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+          <folding>
+            <element signature="e#4697#4698#0" expanded="true" />
+            <element signature="e#4742#4743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="9443">
           <caret line="537" column="45" selection-start-line="537" selection-start-column="45" selection-end-line="537" selection-end-column="45" />
           <folding>
             <element signature="e#5767#5768#0" expanded="true" />
@@ -2117,8 +1658,8 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="211" column="72" lean-forward="true" selection-start-line="211" selection-start-column="72" selection-end-line="211" selection-end-column="72" />
+        <state relative-caret-position="3287">
+          <caret line="211" column="72" selection-start-line="211" selection-start-column="72" selection-end-line="211" selection-end-column="72" />
           <folding>
             <element signature="e#3740#3741#0" expanded="true" />
             <element signature="e#3777#3778#0" expanded="true" />
@@ -2126,17 +1667,444 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Hashtable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="130" column="22" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="22" />
+        <state relative-caret-position="1254">
+          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
+          <folding>
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/CollectionExample.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="218">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.File">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.File</OriginalElement>
+          <nodes>
+            <node x="151.5" y="0.0">java.lang.Comparable</node>
+            <node x="0.0" y="103.0">java.io.File</node>
+            <node x="17.5" y="11.5">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.File" target="java.io.Serializable">
+              <point x="-77.5" y="-647.5" />
+              <point x="77.5" y="78.0" />
+              <point x="74.5" y="78.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.File" target="java.lang.Comparable">
+              <point x="77.5" y="-647.5" />
+              <point x="232.5" y="78.0" />
+              <point x="235.5" y="78.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-373.5" y="-20.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.InputStreamReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.InputStreamReader</OriginalElement>
+          <nodes>
+            <node x="13.5" y="80.0">java.io.Closeable</node>
+            <node x="138.5" y="80.0">java.lang.Readable</node>
+            <node x="83.0" y="160.0">java.io.Reader</node>
+            <node x="47.5" y="240.0">java.io.InputStreamReader</node>
+            <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.Reader" target="java.io.Closeable">
+              <point x="-22.5" y="-15.0" />
+              <point x="105.5" y="135.0" />
+              <point x="66.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Reader" target="java.lang.Readable">
+              <point x="22.5" y="-15.0" />
+              <point x="150.5" y="135.0" />
+              <point x="190.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.InputStreamReader" target="java.io.Reader">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="-64.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.Reader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.Reader</OriginalElement>
+          <nodes>
+            <node x="203.0" y="103.0">java.io.Closeable</node>
+            <node x="0.0" y="103.0">java.lang.Readable</node>
+            <node x="71.0" y="206.0">java.io.Reader</node>
+            <node x="203.0" y="0.0">java.lang.AutoCloseable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.Reader" target="java.io.Closeable">
+              <point x="55.0" y="-130.0" />
+              <point x="236.0" y="181.0" />
+              <point x="270.5" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Reader" target="java.lang.Readable">
+              <point x="-55.0" y="-130.0" />
+              <point x="126.0" y="181.0" />
+              <point x="91.5" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="-104.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.Writer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.Writer</OriginalElement>
+          <nodes>
+            <node x="155.0" y="103.0">java.lang.Appendable</node>
+            <node x="0.0" y="126.0">java.io.Closeable</node>
+            <node x="172.5" y="252.0">java.io.Writer</node>
+            <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+            <node x="496.0" y="126.0">java.io.Flushable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.Writer" target="java.io.Closeable">
+              <point x="-95.33333333333331" y="-130.0" />
+              <point x="220.16666666666669" y="227.0" />
+              <point x="67.5" y="227.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Writer" target="java.io.Flushable">
+              <point x="95.33333333333331" y="-130.0" />
+              <point x="410.8333333333333" y="227.0" />
+              <point x="562.0" y="227.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Writer" target="java.lang.Appendable">
+              <point x="0.0" y="-130.0" />
+              <point x="0.0" y="49.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-310.5" y="-104.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.OutputStream">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.OutputStream</OriginalElement>
+          <nodes>
+            <node x="38.75" y="206.0">java.io.OutputStream</node>
+            <node x="152.0" y="103.0">java.io.Closeable</node>
+            <node x="152.0" y="0.0">java.lang.AutoCloseable</node>
+            <node x="0.0" y="103.0">java.io.Flushable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.OutputStream" target="java.io.Closeable">
+              <point x="52.0" y="-72.5" />
+              <point x="194.75" y="181.0" />
+              <point x="219.5" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.OutputStream" target="java.io.Flushable">
+              <point x="-52.0" y="-72.5" />
+              <point x="90.75" y="181.0" />
+              <point x="66.0" y="181.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-380.0" y="20.0" />
+          <SelectedNodes>
+            <node>java.io.OutputStream</node>
+            <node>java.io.Flushable</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.InputStream">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.InputStream</OriginalElement>
+          <nodes>
+            <node x="42.5" y="103.0">java.io.Closeable</node>
+            <node x="42.5" y="0.0">java.lang.AutoCloseable</node>
+            <node x="0.0" y="206.0">java.io.InputStream</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.InputStream" target="java.io.Closeable">
+              <point x="0.0" y="-118.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-26.5" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-434.5" y="73.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="301" column="77" selection-start-line="301" selection-start-column="71" selection-end-line="301" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.FileWriter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.FileWriter</OriginalElement>
+          <nodes>
+            <node x="138.5" y="80.0">java.lang.Appendable</node>
+            <node x="13.5" y="80.0">java.io.Closeable</node>
+            <node x="156.0" y="160.0">java.io.Writer</node>
+            <node x="146.49999999999997" y="320.0">java.io.FileWriter</node>
+            <node x="115.49999999999997" y="240.0">java.io.OutputStreamWriter</node>
+            <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+            <node x="277.5" y="80.0">java.io.Flushable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.Writer" target="java.io.Closeable">
+              <point x="-28.0" y="-15.0" />
+              <point x="170.0" y="135.0" />
+              <point x="66.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.FileWriter" target="java.io.OutputStreamWriter">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Writer" target="java.io.Flushable">
+              <point x="28.0" y="-15.0" />
+              <point x="226.0" y="135.0" />
+              <point x="328.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.OutputStreamWriter" target="java.io.Writer">
+              <point x="2.8421709430404007E-14" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Writer" target="java.lang.Appendable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-310.5" y="100.0" />
+          <SelectedNodes>
+            <node>java.io.FileWriter</node>
+            <node>java.io.Flushable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.io.FileReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.io.FileReader</OriginalElement>
+          <nodes>
+            <node x="123.0" y="80.0">java.io.Closeable</node>
+            <node x="0.0" y="80.0">java.lang.Readable</node>
+            <node x="68.49999999999999" y="160.0">java.io.Reader</node>
+            <node x="58.99999999999996" y="343.0">java.io.FileReader</node>
+            <node x="32.99999999999997" y="240.0">java.io.InputStreamReader</node>
+            <node x="109.5" y="0.0">java.lang.AutoCloseable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.io.Reader" target="java.io.Closeable">
+              <point x="22.500000000000014" y="-15.0" />
+              <point x="136.0" y="135.0" />
+              <point x="175.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Reader" target="java.lang.Readable">
+              <point x="-22.499999999999986" y="-15.0" />
+              <point x="91.0" y="135.0" />
+              <point x="51.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.InputStreamReader" target="java.io.Reader">
+              <point x="1.4210854715202004E-14" y="-26.5" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.io.FileReader" target="java.io.InputStreamReader">
+              <point x="1.4210854715202004E-14" y="-15.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-379.5" y="371.0" />
+          <SelectedNodes>
+            <node>java.io.FileReader</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="267" column="37" selection-start-line="267" selection-start-column="37" selection-end-line="267" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/IOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
