@@ -91,8 +91,6 @@ public class SocketExample {
         try (Socket cSocket = new Socket(InetAddress.getLocalHost(), port)) {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(cSocket.getInputStream()));
             bufferedReader.lines().forEach(s -> System.out.println("NIO 客户端：" + s));
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
