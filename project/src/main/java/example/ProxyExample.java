@@ -17,8 +17,9 @@ public class ProxyExample {
         // 方式三：.class直接获取
         Class myClass = PeopleImpl.class;
 
+
         // 调用普通方法
-//        Object object = myClass.newInstance();
+        Object object = myClass.newInstance();
 //        Method method = myClass.getMethod("sayHi",String.class);
 //        method.invoke(object,"老王");
 
@@ -26,15 +27,20 @@ public class ProxyExample {
 //        Method getSex = myClass.getMethod("getSex");
 //        getSex.invoke(myClass);
 
-        // 获取所有 public 方法
-        for (Method method : myClass.getDeclaredMethods()) {
-            System.out.println(method);
-        }
+        // 调用私有方法
+        Method privSayHi = myClass.getDeclaredMethod("privSayHi");
+        privSayHi.setAccessible(true); // 修改访问限制
+        privSayHi.invoke(object);
 
-        // 获取字段
-        for (Field field : myClass.getDeclaredFields()) {
-            System.out.println(field);
-        }
+        // 获取所有 public 方法
+//        for (Method method : myClass.getDeclaredMethods()) {
+//            System.out.println(method);
+//        }
+//
+//        // 获取字段
+//        for (Field field : myClass.getDeclaredFields()) {
+//            System.out.println(field);
+//        }
 
         // Declared 获取当前类的变量或方法，private和public都可以获取到，但不能获取到父类任何信息
         // 非 Declared 的只能获取到 public 的变量或方法，并且可以获取到父类的
