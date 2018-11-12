@@ -1,20 +1,13 @@
-package thread;
+package example;
 
-import javax.xml.ws.handler.Handler;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Iterator;
-import java.util.Set;
 import java.util.concurrent.*;
-import java.util.logging.SimpleFormatter;
 
 public class SocketExample {
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {

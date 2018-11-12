@@ -1,10 +1,6 @@
-package thread;
+package example;
 
-import com.sun.jmx.snmp.tasks.ThreadService;
-
-import javax.security.auth.callback.Callback;
 import java.util.Date;
-import java.util.Random;
 import java.util.concurrent.*;
 
 /**

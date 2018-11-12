@@ -1,4 +1,4 @@
-package thread;
+package example;
 
 //public class MyThread implements Runnable {
 //    @Override

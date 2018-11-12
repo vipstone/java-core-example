@@ -1,8 +1,4 @@
-package thread;
-
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+package example;
 
 // 非安全线程模拟
 public class ThreadSafeSample {

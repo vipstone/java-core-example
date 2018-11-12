@@ -1,4 +1,4 @@
-package thread;
+package example;
 
 /**
  * 死锁实现

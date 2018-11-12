@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57097446-78ac-4cb6-9239-db4197ef9181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/PeopleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/ProxyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/IOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/IOExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/CollectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/IOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/IOExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/LockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/MyCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SocketExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/SocketExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/SynchronizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ThreadPoolExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ThreadSafeSample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +30,11 @@
     <session id="352806247">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -29,7 +42,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,226 +97,67 @@
           <entry key="Worker" value="1" />
           <entry key="Writer" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="330" />
+          <entry key="java" value="337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="330" />
+          <entry key="JAVA" value="337" />
           <entry key="UML" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="java" value="8418" />
-          <entry key="txt" value="176" />
+          <entry key="dummy" value="35" />
+          <entry key="java" value="9604" />
+          <entry key="txt" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8418" />
-          <entry key="PLAIN_TEXT" value="183" />
+          <entry key="JAVA" value="9604" />
+          <entry key="PLAIN_TEXT" value="238" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/IOExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/PeopleImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+            <state relative-caret-position="462">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/StandardCharsets.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/People.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="88">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/ProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="354" column="57" lean-forward="true" selection-start-line="354" selection-start-column="57" selection-end-line="354" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/file/Files.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.nio.file.Files">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.nio.file.Files</OriginalElement>
-              <nodes>
-                <node x="-398.0" y="-429.0">java.nio.file.Files</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="-483.0" y="-189.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.io.Reader">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.io.Reader</OriginalElement>
-              <nodes>
-                <node x="0.0" y="103.0">java.io.Closeable</node>
-                <node x="155.0" y="103.0">java.lang.Readable</node>
-                <node x="47.0" y="206.0">java.io.Reader</node>
-                <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.io.Reader" target="java.io.Closeable">
-                  <point x="-55.0" y="-130.0" />
-                  <point x="102.0" y="181.0" />
-                  <point x="67.5" y="181.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="java.io.Reader" target="java.lang.Readable">
-                  <point x="55.0" y="-130.0" />
-                  <point x="212.0" y="181.0" />
-                  <point x="246.5" y="181.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-                  <point x="0.0" y="-26.5" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-164.0" y="-104.5" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Writer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.io.Writer">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.io.Writer</OriginalElement>
-              <nodes>
-                <node x="0.0" y="103.0">java.lang.Appendable</node>
-                <node x="493.0" y="126.0">java.io.Closeable</node>
-                <node x="264.0" y="252.0">java.io.Writer</node>
-                <node x="493.0" y="0.0">java.lang.AutoCloseable</node>
-                <node x="341.0" y="126.0">java.io.Flushable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.io.Writer" target="java.io.Closeable">
-                  <point x="95.33333333333331" y="-130.0" />
-                  <point x="502.3333333333333" y="227.0" />
-                  <point x="560.5" y="227.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="java.io.Writer" target="java.io.Flushable">
-                  <point x="0.0" y="-130.0" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-                  <point x="0.0" y="-26.5" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="java.io.Writer" target="java.lang.Appendable">
-                  <point x="-95.33333333333331" y="-130.0" />
-                  <point x="311.6666666666667" y="227.0" />
-                  <point x="160.5" y="227.0" />
-                  <point x="0.0" y="49.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-95.0" y="-104.5" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.io.Closeable">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.io.Closeable</OriginalElement>
-              <nodes>
-                <node x="13.5" y="80.0">java.io.Closeable</node>
-                <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-219.0" y="-144.5" />
-              <SelectedNodes>
-                <node>java.io.Closeable</node>
-                <node>java.lang.AutoCloseable</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+            <state relative-caret-position="625">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -313,6 +167,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -374,8 +229,16 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/LockExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/SocketExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/IOExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/SocketExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/IHello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/People.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/PeopleImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ProxyExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/People.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/PeopleImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/ProxyExample.java" />
       </list>
     </option>
   </component>
@@ -405,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,7 +301,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
@@ -506,8 +371,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,13 +396,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IOExample">
+  <component name="RunManager" selected="Application.ProxyExample">
     <configuration name="CollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CollectionExample" />
+      <option name="MAIN_CLASS_NAME" value="example.CollectionExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -548,11 +411,11 @@
       </method>
     </configuration>
     <configuration name="IOExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.IOExample" />
+      <option name="MAIN_CLASS_NAME" value="example.IOExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -561,11 +424,24 @@
       </method>
     </configuration>
     <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.LockExample" />
+      <option name="MAIN_CLASS_NAME" value="example.LockExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.ProxyExample" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -574,24 +450,11 @@
       </method>
     </configuration>
     <configuration name="SocketExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SocketExample" />
+      <option name="MAIN_CLASS_NAME" value="example.SocketExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSafeSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadSafeSample" />
-      <module name="project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,18 +464,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LockExample" />
-      <item itemvalue="Application.ThreadSafeSample" />
       <item itemvalue="Application.CollectionExample" />
       <item itemvalue="Application.IOExample" />
       <item itemvalue="Application.SocketExample" />
+      <item itemvalue="Application.ProxyExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyExample" />
         <item itemvalue="Application.IOExample" />
         <item itemvalue="Application.SocketExample" />
         <item itemvalue="Application.CollectionExample" />
         <item itemvalue="Application.LockExample" />
-        <item itemvalue="Application.ThreadSafeSample" />
       </list>
     </recent_temporary>
   </component>
@@ -642,7 +505,8 @@
       <workItem from="1541382099154" duration="22257000" />
       <workItem from="1541468651009" duration="17643000" />
       <workItem from="1541643621141" duration="14116000" />
-      <workItem from="1541730251582" duration="10119000" />
+      <workItem from="1541730251582" duration="14277000" />
+      <workItem from="1542000445010" duration="9091000" />
     </task>
     <task id="LOCAL-00001" summary="添加线程池使用方法">
       <created>1540954159070</created>
@@ -721,11 +585,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541672582870</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upgrade io example">
+      <created>1541750137355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541750137355</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upgrade io example">
+      <created>1541759435964</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541759435964</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169948000" />
+    <option name="totallyTimeSpent" value="183197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,14 +618,14 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.47046188" />
-      <window_info anchor="bottom" id="Run" order="2" type="SLIDING" weight="0.3404941" />
+      <window_info anchor="bottom" id="Run" order="2" type="SLIDING" weight="0.2728249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -820,37 +698,10 @@
     <MESSAGE value="add io example" />
     <MESSAGE value="add socket example" />
     <MESSAGE value="optimize socket code" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize socket code" />
+    <MESSAGE value="upgrade io example" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade io example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9443">
-          <caret line="537" column="45" selection-start-line="537" selection-start-column="45" selection-end-line="537" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3287">
-          <caret line="211" column="72" selection-start-line="211" selection-start-column="72" selection-end-line="211" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.io.File">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1191,7 +1042,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/MyCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/MyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
@@ -1205,21 +1056,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/DeadLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/DeadLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/CollectionExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/CollectionExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
@@ -1229,21 +1080,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/SynchronizedTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/SynchronizedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/ThreadPoolExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/ThreadSafeSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
@@ -1271,20 +1122,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/SocketExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,7 +1185,7 @@
               <point x="0.0" y="26.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-453.5" y="-104.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-453.0" y="-104.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -1391,7 +1232,7 @@
               <point x="0.0" y="26.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-164.5" y="-104.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-164.0" y="-104.0" />
           <SelectedNodes>
             <node>java.io.Closeable</node>
           </SelectedNodes>
@@ -1426,7 +1267,7 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-219.0" y="-144.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-219.0" y="-144.0" />
           <SelectedNodes>
             <node>java.io.Closeable</node>
             <node>java.lang.AutoCloseable</node>
@@ -1434,13 +1275,6 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1474,20 +1308,13 @@
               <point x="0.0" y="26.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-164.0" y="-104.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-164.0" y="-104.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1526,27 +1353,13 @@
               <point x="0.0" y="49.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-95.0" y="-104.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-95.0" y="-104.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="354" column="57" lean-forward="true" selection-start-line="354" selection-start-column="57" selection-end-line="354" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/StandardCharsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1570,17 +1383,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/file/Files.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/SocketExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="90" column="23" lean-forward="true" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        <state relative-caret-position="308">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/IOExample.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/StandardCharsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="572">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="354" column="57" selection-start-line="354" selection-start-column="57" selection-end-line="354" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1913" column="19" selection-start-line="1913" selection-start-column="19" selection-end-line="1913" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/IOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/PeopleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/ProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

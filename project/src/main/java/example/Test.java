@@ -1,13 +1,7 @@
-package thread;
+package example;
 
-import com.sun.jmx.snmp.tasks.ThreadService;
-
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.Vector;
 import java.util.concurrent.*;
-
-import static java.lang.Thread.currentThread;
 
 public class Test {
 
@@ -18,48 +12,48 @@ public class Test {
 //        // 线程1调用同步线程，模拟阻塞
 //        new Thread(() -> myCounter.increase()).start();
 //        // 线程2继续调用同步阻塞方法
-//        Thread thread = new Thread(() -> myCounter.increase());
-//        thread.start();
+//        Thread example = new Thread(() -> myCounter.increase());
+//        example.start();
 //        // 让主线程等10毫秒
 //        Thread.currentThread().sleep(10);
 //        // 打印线程2，为阻塞状态：BLOCKED
-//        System.out.println(thread.getState());
+//        System.out.println(example.getState());
 
 
 //        // ----------- TERMINATED 状态 --------------
-//        Thread thread = new Thread() {
+//        Thread example = new Thread() {
 //            @Override
 //            public void run() {
 //                System.out.println(Thread.currentThread().getName());
 //            }
 //        };
-//        thread.start();
+//        example.start();
 //        // 主线程挂起200毫秒，等thread执行完成
 //        Thread.sleep(200);
 //        // TERMINATED
-//        System.out.println(thread.getState());
+//        System.out.println(example.getState());
 
 //        // ----------- WAITING 或 TIMED_WAITING 状态 --------------
-//        Thread thread = new Thread(new MyThread());
-//        thread.start();
+//        Thread example = new Thread(new MyThread());
+//        example.start();
 //        // 主线程挂起200毫秒，等thread执行完成
 //        Thread.sleep(200);
 //        // 输出WAITING，线程thread一直处于被挂起状态
-//        System.out.println(thread.getState());
+//        System.out.println(example.getState());
 //        synchronized (MyThread.class) {
 //            MyThread.class.notify();
 //        }
 
 
 //// ----------- TERMINATED 状态 --------------
-//        Thread thread = new Thread(() -> System.out.println(Thread.currentThread().getName()));
-//        thread.start();
+//        Thread example = new Thread(() -> System.out.println(Thread.currentThread().getName()));
+//        example.start();
 //// 让主线程等10毫秒
 //        Thread.currentThread().sleep(10);
-//        System.out.println(thread.getState());
+//        System.out.println(example.getState());
 
-//        Thread thread = new Thread(() -> System.out.println(Thread.currentThread().getName()));
-//        thread.start();
+//        Thread example = new Thread(() -> System.out.println(Thread.currentThread().getName()));
+//        example.start();
 
 //        //----------- Callable Future 创建线程 --------------
 //        Callable<String> callable = new MyThread();

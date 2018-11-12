@@ -1,7 +1,6 @@
-package thread;
+package example;
 
 import java.util.*;
-import java.util.concurrent.*;
 
 // 集合示例
 public class CollectionExample {

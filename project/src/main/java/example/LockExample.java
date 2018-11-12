@@ -1,8 +1,4 @@
-package thread;
-
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.ReentrantLock;
+package example;
 
 // 线程同步与锁示例
 public class LockExample {

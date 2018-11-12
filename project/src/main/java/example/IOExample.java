@@ -1,10 +1,7 @@
-package thread;
+package example;
 
-
-import javafx.scene.input.DataFormat;
 
 import java.io.*;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.text.SimpleDateFormat;
