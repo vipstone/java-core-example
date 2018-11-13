@@ -4,22 +4,21 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class ProxyExample {
+public class ReflectionExample {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
-        // 方式一：forName()
+        // 方式一：forName()—— JVM 查找并加载指定的类，也就是说JVM会执行该类的静态代码段
 //        Class<?> myClass = Class.forName("example.PeopleImpl");
 
         // 方式二：getClass()
-//        String className = new String("example.PeopleImpl");
-//        Class myClass = className.getClass();
+        Class myClass =  new PeopleImpl().getClass();
 
         // 方式三：.class直接获取
-        Class myClass = PeopleImpl.class;
+//        Class myClass = PeopleImpl.class;
 
 
         // 调用普通方法
-        Object object = myClass.newInstance();
+//        Object object = myClass.newInstance();
 //        Method method = myClass.getMethod("sayHi",String.class);
 //        method.invoke(object,"老王");
 
@@ -28,16 +27,16 @@ public class ProxyExample {
 //        getSex.invoke(myClass);
 
         // 调用私有方法
-        Method privSayHi = myClass.getDeclaredMethod("privSayHi");
-        privSayHi.setAccessible(true); // 修改访问限制
-        privSayHi.invoke(object);
+//        Method privSayHi = myClass.getDeclaredMethod("privSayHi");
+//        privSayHi.setAccessible(true); // 修改访问限制
+//        privSayHi.invoke(object);
 
-        // 获取所有 public 方法
-//        for (Method method : myClass.getDeclaredMethods()) {
-//            System.out.println(method);
-//        }
-//
-//        // 获取字段
+        // 获取所有方法
+        for (Method method : myClass.getDeclaredMethods()) {
+            System.out.println(method);
+        }
+
+//        // 获取所有字段
 //        for (Field field : myClass.getDeclaredFields()) {
 //            System.out.println(field);
 //        }

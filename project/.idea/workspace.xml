@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57097446-78ac-4cb6-9239-db4197ef9181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/PeopleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/ProxyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/CollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/CollectionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/IOExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/IOExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/LockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/LockExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/MyCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SocketExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/SocketExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ThreadPoolExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadSafeSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ThreadSafeSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/ProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/ReflectionExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,27 +84,27 @@
           <entry key="Worker" value="1" />
           <entry key="Writer" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="337" />
+          <entry key="java" value="339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="337" />
+          <entry key="JAVA" value="339" />
           <entry key="UML" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="35" />
-          <entry key="java" value="9604" />
-          <entry key="txt" value="203" />
+          <entry key="dummy" value="48" />
+          <entry key="java" value="9856" />
+          <entry key="txt" value="221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9604" />
-          <entry key="PLAIN_TEXT" value="238" />
+          <entry key="JAVA" value="9856" />
+          <entry key="PLAIN_TEXT" value="269" />
         </counts>
       </usages-collector>
     </session>
@@ -127,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/example/PeopleImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
@@ -151,13 +138,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/example/ProxyExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/example/ReflectionExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/AccessibleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="128" column="35" lean-forward="true" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -174,7 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gettask</find>
       <find>runWorker</find>
       <find>runWorker(</find>
       <find>newSingleThreadScheduledExecutor</find>
@@ -204,6 +199,7 @@
       <find>file</find>
       <find>OutputStream</find>
       <find>charset</find>
+      <find>privSayHi</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,6 +235,7 @@
         <option value="$PROJECT_DIR$/src/main/java/example/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/PeopleImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/ProxyExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/example/ReflectionExample.java" />
       </list>
     </option>
   </component>
@@ -255,7 +252,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -303,70 +300,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="charset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -382,7 +315,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -396,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProxyExample">
+  <component name="RunManager" selected="Application.ReflectionExample">
     <configuration name="CollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.CollectionExample" />
       <module name="project" />
@@ -436,8 +369,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.ProxyExample" />
+    <configuration name="ReflectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.ReflectionExample" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
@@ -467,11 +400,11 @@
       <item itemvalue="Application.CollectionExample" />
       <item itemvalue="Application.IOExample" />
       <item itemvalue="Application.SocketExample" />
-      <item itemvalue="Application.ProxyExample" />
+      <item itemvalue="Application.ReflectionExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProxyExample" />
+        <item itemvalue="Application.ReflectionExample" />
         <item itemvalue="Application.IOExample" />
         <item itemvalue="Application.SocketExample" />
         <item itemvalue="Application.CollectionExample" />
@@ -506,7 +439,7 @@
       <workItem from="1541468651009" duration="17643000" />
       <workItem from="1541643621141" duration="14116000" />
       <workItem from="1541730251582" duration="14277000" />
-      <workItem from="1542000445010" duration="9091000" />
+      <workItem from="1542000445010" duration="18026000" />
     </task>
     <task id="LOCAL-00001" summary="添加线程池使用方法">
       <created>1540954159070</created>
@@ -599,11 +532,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541759435964</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add proxy example">
+      <created>1542015503457</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542015503457</updated>
+    </task>
+    <task id="LOCAL-00015" summary="perfect proxy example">
+      <created>1542017979511</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542017979511</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183197000" />
+    <option name="totallyTimeSpent" value="192132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +565,7 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -699,44 +646,11 @@
     <MESSAGE value="add socket example" />
     <MESSAGE value="optimize socket code" />
     <MESSAGE value="upgrade io example" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade io example" />
+    <MESSAGE value="add proxy example" />
+    <MESSAGE value="perfect proxy example" />
+    <option name="LAST_COMMIT_MESSAGE" value="perfect proxy example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.io.File">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.io.File</OriginalElement>
-          <nodes>
-            <node x="151.5" y="0.0">java.lang.Comparable</node>
-            <node x="0.0" y="103.0">java.io.File</node>
-            <node x="17.5" y="11.5">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.io.File" target="java.io.Serializable">
-              <point x="-77.5" y="-647.5" />
-              <point x="77.5" y="78.0" />
-              <point x="74.5" y="78.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.io.File" target="java.lang.Comparable">
-              <point x="77.5" y="-647.5" />
-              <point x="232.5" y="78.0" />
-              <point x="235.5" y="78.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-373.0" y="-20.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.io.InputStreamReader">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1425,13 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1913" column="19" selection-start-line="1913" selection-start-column="19" selection-end-line="1913" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/IOExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1439,17 +1346,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/People.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="565">
+          <caret line="128" column="35" lean-forward="true" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1283">
+          <caret line="392" column="13" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/PeopleImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#199#200#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
@@ -1461,10 +1375,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/example/ProxyExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/example/ReflectionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
