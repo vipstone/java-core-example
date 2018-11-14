@@ -11,7 +11,7 @@ public class ReflectionExample {
 //        Class<?> myClass = Class.forName("example.PeopleImpl");
 
         // 方式二：getClass()
-        Class myClass =  new PeopleImpl().getClass();
+        Class myClass = new PeopleImpl().getClass();
 
         // 方式三：.class直接获取
 //        Class myClass = PeopleImpl.class;
@@ -46,4 +46,29 @@ public class ReflectionExample {
 
 
     }
+}
+
+interface People {
+    int parentAge = 18;
+
+    public void sayHi(String name);
+}
+
+class PeopleImpl implements People {
+    private String privSex = "男";
+    public String race = "汉族";
+
+    @Override
+    public void sayHi(String name) {
+        System.out.println("hello," + name);
+    }
+
+    private void prvSayHi() {
+        System.out.println("prvSayHi~");
+    }
+
+    public static void getSex() {
+        System.out.println("18岁");
+    }
+
 }

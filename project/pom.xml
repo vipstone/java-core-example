@@ -8,5 +8,14 @@
     <artifactId>javacore</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.9</version>
+        </dependency>
+    </dependencies>
+
+
 
 </project>
