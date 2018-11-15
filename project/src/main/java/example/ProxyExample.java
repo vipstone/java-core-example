@@ -12,14 +12,14 @@ public class ProxyExample {
     public static void main(String[] args) {
 
         // JDK 动态代理
-//        AnimalProxy proxy = new AnimalProxy();
-//        Animal dogProxy = (Animal) proxy.getInstance(new Dog());
-//        dogProxy.eat();
+        AnimalProxy proxy = new AnimalProxy();
+        Animal dogProxy = (Animal) proxy.getInstance(new Dog());
+        dogProxy.eat();
 
         // CGLIB 动态代理
-        CglibProxy proxy = new CglibProxy();
-        Panda panda = (Panda)proxy.getInstance(new Panda());
-        panda.eat();
+//        CglibProxy proxy = new CglibProxy();
+//        Panda panda = (Panda)proxy.getInstance(new Panda());
+//        panda.eat();
 
     }
 }
@@ -31,14 +31,14 @@ interface Animal {
 class Dog implements Animal {
     @Override
     public void eat() {
-        System.out.println("Dog eating");
+        System.out.println("The dog is eating");
     }
 }
 
 class Cat implements Animal {
     @Override
     public void eat() {
-        System.out.println("Cat eating");
+        System.out.println("The cat is eating");
     }
 }
 
@@ -61,9 +61,32 @@ class AnimalProxy implements InvocationHandler {
     }
 }
 
+// JDK 反例 extends 不能代理示例
+//class Animal {
+//    void eat(){
+//        System.out.println("The animal is eating");
+//    }
+//}
+//
+//class Dog extends Animal {
+//    @Override
+//    public void eat() {
+//        System.out.println("The dog is eating");
+//    }
+//}
+//
+//class Cat extends Animal {
+//    @Override
+//    public void eat() {
+//        System.out.println("The cat is eating");
+//    }
+//}
+
+//====================== CGLIB 示例 ==========================
+
 class Panda {
     public void eat() {
-        System.out.println("Panda eating");
+        System.out.println("The panda is eating");
     }
 }
 
@@ -73,6 +96,7 @@ class CglibProxy implements MethodInterceptor {
     public Object getInstance(Object target) {
         this.target = target;
         Enhancer enhancer = new Enhancer();
+        // 设置父类为实例类
         enhancer.setSuperclass(this.target.getClass());
         // 回调方法
         enhancer.setCallback(this);
