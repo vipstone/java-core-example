@@ -85,6 +85,7 @@ class AnimalProxy implements InvocationHandler {
 //====================== CGLIB 示例 ==========================
 
 class Panda {
+
     public void eat() {
         System.out.println("The panda is eating");
     }
